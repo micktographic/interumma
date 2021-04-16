@@ -1,0 +1,17 @@
+<style>
+        .parrafo1 {
+            color: tomato;
+        }
+        .parrafo2 {
+            color: teal;
+        }
+        .parrafo3 {
+            color: blueviolet;
+        }
+        #1 {
+            background-size: 100px;
+        }
+        body {
+            background-color: skyblue;
+        }
+    </style>

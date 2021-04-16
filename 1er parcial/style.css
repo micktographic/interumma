@@ -1,0 +1,40 @@
+.encabezado {
+    color: chocolate;
+    text-decoration: underline;
+}
+h1 {
+    color:crimson;
+    text-decoration: underline;
+}
+
+#identificador {
+    color: blueviolet;
+    font-size: 200%;
+}
+
+.sección1 {
+    background-color:palegreen;
+    color:green;
+    text-decoration: underline;
+    text-align: center
+}
+
+.sección2 {
+    background-color: lightcoral;
+    color:brown;
+    text-decoration: underline;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    float: left;
+}
+
+.sección3 {
+    background-color: lightslategrey;
+    color:maroon;
+    text-decoration: underline;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    float: right;
+}
