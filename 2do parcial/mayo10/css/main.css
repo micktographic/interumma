@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.portada {
+    width: 75%;
+}
+
+div {
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: palevioletred;
+    color: purple;
+    text-align: center;
+}
+
+.animeimg {
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}

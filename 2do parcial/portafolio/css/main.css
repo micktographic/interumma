@@ -1,5 +1,6 @@
 body {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    ;
     font-size: 20px;
 }
 
@@ -21,27 +22,26 @@ li {
     text-align: center;
 }
 
-nav li>ul{
-    display:none;
-    }
+nav li>ul {
+    display: none;
+}
 
-nav li:hover>ul{
-    display:block;
+nav li:hover>ul {
+    display: block;
 }
 
 div.logo {
     max-width: fit-content;
     margin: 20px auto;
     padding: 15px;
-  }
+}
 
 .menu {
-	position:fixed;
-	z-index:1000;
-	top:0;
-	left:0;
-	width:100%;
-	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 img {
@@ -60,22 +60,23 @@ a:hover {
     color: rgba(247, 194, 202)
 }
 
+
 /* aboutme */
 
-  div.branding {
+div.branding {
     width: 75%;
     margin: 20px auto;
     background-color: rgba(49, 55, 136);
     color: rgba(247, 194, 202);
     padding: 15px;
-  }
-  
-  div.branding img.izquierda {
+}
+
+div.branding img.izquierda {
     float: left;
     margin-right: 15px;
     width: 250px;
-  }
-  
-  div.reset {
+}
+
+div.reset {
     clear: both;
-  }
+}

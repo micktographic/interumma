@@ -1,0 +1,53 @@
+.port {
+    background-image: url(https://xboxplay.games/uploadStream/16152.jpg);
+    background-size: cover;
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+}
+
+.button {
+    text-decoration: none;
+    color: blueviolet;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    margin: auto auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    transition: 2s;
+    display: inline-block;
+}
+
+.button:active {
+    transition: 1s;
+    transform: scale(.8);
+}
+
+.button:hover {
+    background: plum;
+}
+
+@media screen and (max-width:800px) {
+    .port
+        width: 100%;
+        background-repeat:no-repeat;
+} 
+
+@media screen and (max-width:650px) {
+    .port
+        background-size:auto;
+}
+
+@media screen and (max-width:400) {
+    .port
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:300px) {
+    .port
+        margin:10px;
+        background-size:contain;
+        min-height:50vh;
+}
